@@ -1,0 +1,34 @@
+:root{
+    --reddishBrown: #952323;
+    --brown: #A73121;
+    --oldcarcolor: #DAD4B5;
+    --beige: #F2E8C6;
+}
+
+body{
+    background: var(--oldcarcolor) ;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    margin-bottom: -8rem;
+    text-align: center;
+
+}
+
+.books{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: black;
+    background-color: var(--beige);
+    border: 10px solid var(--reddishBrown);
+
+}
